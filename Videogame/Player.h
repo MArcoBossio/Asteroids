@@ -5,10 +5,11 @@
 #ifndef VIDEOGAME_PLAYER_H
 #define VIDEOGAME_PLAYER_H
 #include "SFML/Graphics.hpp"
+#include "Entity.h"
 
-class Player {
+class Player : public Entity {
 public:
-    Player() : position(550, 500), angle(45), array(sf::Quads, 4) {
+    Player() : Entity(sf::Vector2f (550, 500), 0), array(sf::Quads, 4) {
         array[0].position = sf::Vector2f(-30, 0);
         array[1].position = sf::Vector2f(20, -20);
         array[2].position = sf::Vector2f(10, 0);
@@ -18,12 +19,10 @@ public:
             array[i].color = sf::Color::White;
         }
     }
-    sf::Vector2f position;
-    float angle;
 
-    void draw(sf::RenderWindow &window);
+    void render(sf::RenderWindow &window) override;
 
-    void update(float deltaTime);
+    void update(float deltaTime) override;
 
 private:
     sf::VertexArray array;

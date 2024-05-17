@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Videogame.dir/Bullet.cpp.o"
+  "CMakeFiles/Videogame.dir/Bullet.cpp.o.d"
+  "CMakeFiles/Videogame.dir/Entity.cpp.o"
+  "CMakeFiles/Videogame.dir/Entity.cpp.o.d"
   "CMakeFiles/Videogame.dir/Player.cpp.o"
   "CMakeFiles/Videogame.dir/Player.cpp.o.d"
   "CMakeFiles/Videogame.dir/main.cpp.o"
