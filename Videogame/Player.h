@@ -9,9 +9,9 @@
 class Player {
 public:
     Player() : position(550, 500), angle(45), array(sf::Quads, 4) {
-        array[0].position = sf::Vector2f(0, -25);
-        array[1].position = sf::Vector2f(-20, 20);
-        array[2].position = sf::Vector2f(0, 10);
+        array[0].position = sf::Vector2f(-30, 0);
+        array[1].position = sf::Vector2f(20, -20);
+        array[2].position = sf::Vector2f(10, 0);
         array[3].position = sf::Vector2f(20, 20);
 
         for (size_t i = 0; i < array.getVertexCount(); i++) {
@@ -22,6 +22,8 @@ public:
     float angle;
 
     void draw(sf::RenderWindow &window);
+
+    void update(float deltaTime);
 
 private:
     sf::VertexArray array;

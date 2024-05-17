@@ -284,7 +284,18 @@ CMakeFiles/Videogame.dir/Player.cpp.o: ../Player.cpp \
   /usr/include/SFML/Graphics/Glsl.inl \
   /usr/include/SFML/Graphics/Sprite.hpp \
   /usr/include/SFML/Graphics/Text.hpp \
-  /usr/include/SFML/Graphics/VertexBuffer.hpp
+  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h
 
 CMakeFiles/Videogame.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
@@ -586,6 +597,10 @@ CMakeFiles/Videogame.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h
 
 
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/c++/11/istream:
+
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
@@ -597,10 +612,6 @@ CMakeFiles/Videogame.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/c++/11/istream:
 
 /usr/include/SFML/Graphics/VertexBuffer.hpp:
 
@@ -628,9 +639,9 @@ CMakeFiles/Videogame.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/SFML/Graphics/Texture.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
 /usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/SFML/Graphics/Glyph.hpp:
 

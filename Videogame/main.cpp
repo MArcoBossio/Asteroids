@@ -19,6 +19,7 @@ int main() {
 
         window.clear();
         player.draw(window);
+        player.update(deltaTime);
         window.display();
     }
 
