@@ -6,9 +6,14 @@
 #include "Bullet.h"
 #include "SFML/Graphics.hpp"
 #include <cmath>
+
 #define TURN_SPEED 180.0f
 #define SPEED 150.0f
 #define SHOOT_DELAY 0.2f
+#define SCREEN_WIDTH 1200
+#define SCREEN_HEIGHT 900
+#define PLAYER_W 50
+#define PLAYER_H 50
 
 using namespace std;
 
@@ -29,7 +34,10 @@ void Player::update(float deltaTime, std::vector<Entity*> &entities) {
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
         position.x += cos(radiant) * SPEED * deltaTime;
-        position.y -= sin(radiant) * SPEED * deltaTime;
+        position.y += sin(radiant) * SPEED * deltaTime;
+
+        position.x = std::min(std::max(position.x, PLAYER_W / 2.0f), SCREEN_WIDTH - PLAYER_W / 2.0f);
+        position.y = std::min(std::max(position.y, PLAYER_H / 2.0f), SCREEN_HEIGHT - PLAYER_H / 2.0f);
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) and shooterTimer <= 0) {
         sf::Vector2f bulletDirection = sf::Vector2f(cos(radiant), -sin(radiant)); // direction pointing in the direction of the top part of the triangle

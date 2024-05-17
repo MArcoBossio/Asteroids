@@ -81,12 +81,12 @@ clean: CMakeFiles/Videogame.dir/clean
 CMakeFiles/Videogame.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Videogame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Videogame"
 .PHONY : CMakeFiles/Videogame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Videogame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Videogame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Videogame.dir/rule

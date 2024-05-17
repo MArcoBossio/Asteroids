@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "Entity.h"
 #include "Bullet.h"
+#include "Asteroids.h"
 #include <cmath>
 #include <vector>
 
@@ -15,6 +16,7 @@ int main() {
     std::vector<Entity*> entities{};
 
     entities.push_back(new Player());
+    entities.push_back(new Asteroids(sf::Vector2f(1, 0)));
 
     while (window.isOpen()) {
         float deltaTime = clock.restart().asSeconds();

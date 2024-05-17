@@ -3,7 +3,8 @@ project(Videogame)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Videogame main.cpp Player.cpp Player.h Entity.cpp Entity.h Bullet.cpp Bullet.h)
+add_executable(Videogame main.cpp Player.cpp Player.h Entity.cpp Entity.h Bullet.cpp Bullet.h
+        Asteroids.cpp Asteroids.h)
 
 include_directories(/usr/local/include)
 

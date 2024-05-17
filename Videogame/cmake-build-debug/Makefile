@@ -129,6 +129,30 @@ Videogame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/build
 .PHONY : Videogame/fast
 
+Asteroids.o: Asteroids.cpp.o
+.PHONY : Asteroids.o
+
+# target to build an object file
+Asteroids.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Asteroids.cpp.o
+.PHONY : Asteroids.cpp.o
+
+Asteroids.i: Asteroids.cpp.i
+.PHONY : Asteroids.i
+
+# target to preprocess a source file
+Asteroids.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Asteroids.cpp.i
+.PHONY : Asteroids.cpp.i
+
+Asteroids.s: Asteroids.cpp.s
+.PHONY : Asteroids.s
+
+# target to generate assembly for a file
+Asteroids.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Asteroids.cpp.s
+.PHONY : Asteroids.cpp.s
+
 Bullet.o: Bullet.cpp.o
 .PHONY : Bullet.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Videogame"
+	@echo "... Asteroids.o"
+	@echo "... Asteroids.i"
+	@echo "... Asteroids.s"
 	@echo "... Bullet.o"
 	@echo "... Bullet.i"
 	@echo "... Bullet.s"
