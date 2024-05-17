@@ -11,3 +11,7 @@ find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
 include_directories(${SFML_INCLUDE_DIR})
 target_link_libraries(Videogame sfml-graphics sfml-window sfml-system)
 
+add_custom_command(TARGET Videogame POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_SOURCE_DIR}/assets
+        $<TARGET_FILE_DIR:Videogame>/assets)

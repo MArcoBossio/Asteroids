@@ -9,11 +9,10 @@
 
 class Player : public Entity {
 public:
-    Player() : Entity(sf::Vector2f (550, 500), 0), array(sf::Quads, 4) {
-        array[0].position = sf::Vector2f(-30, 0);
-        array[1].position = sf::Vector2f(20, -20);
-        array[2].position = sf::Vector2f(10, 0);
-        array[3].position = sf::Vector2f(20, 20);
+    Player() : Entity(sf::Vector2f (550, 500), 0), array(sf::Triangles, 3), shooterTimer() {
+        array[0].position = sf::Vector2f(0, -20);
+        array[1].position = sf::Vector2f(-20, 20);
+        array[2].position = sf::Vector2f(20, 20);
 
         for (size_t i = 0; i < array.getVertexCount(); i++) {
             array[i].color = sf::Color::White;
@@ -22,10 +21,11 @@ public:
 
     void render(sf::RenderWindow &window) override;
 
-    void update(float deltaTime) override;
+    void update(float deltaTime, std::vector<Entity*> &entities) override;
 
 private:
     sf::VertexArray array;
+    float shooterTimer;
 
 };
 

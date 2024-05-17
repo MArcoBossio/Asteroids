@@ -12,8 +12,8 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(1200, 900), "Asteroids!", sf::Style::Close | sf::Style::Titlebar);
     sf::Clock clock;
 
-    Player player;
     std::vector<Entity*> entities{};
+
     entities.push_back(new Player());
 
     while (window.isOpen()) {
@@ -27,7 +27,7 @@ int main() {
 
         window.clear();
         for (size_t i = 0; i < entities.size(); i++) {
-            entities[i]->update(deltaTime);
+            entities[i]->update(deltaTime, entities);
             entities[i]->render(window);
         }
         window.display();

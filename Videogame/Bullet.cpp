@@ -5,12 +5,14 @@
 #include "Bullet.h"
 #include "SFML/Graphics.hpp"
 
-#define BULLET_SPEED 350.0f
+#define BULLET_SPEED 400.0f
 
-void Bullet::update(float deltaTime) {
+void Bullet::update(float deltaTime, std::vector<Entity*> &entities) {
     position += direction * BULLET_SPEED * deltaTime;
 }
 
 void Bullet::render(sf::RenderWindow &window) {
-    window.draw(shape, sf::Transform().translate(position));
+    sprite.setPosition(position);
+    window.draw(sprite);
+
 }
