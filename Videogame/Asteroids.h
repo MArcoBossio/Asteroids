@@ -8,6 +8,8 @@
 
 #include "SFML/Graphics.hpp"
 #include "Entity.h"
+#include <cmath>
+#include <random>
 
 class Asteroids : public Entity {
 public:
@@ -35,6 +37,15 @@ public:
     void render(sf::RenderWindow &window) override;
 
     void update(float deltaTime, std::vector<Entity*> &entities) override;
+
+    static sf::Vector2f randomDirection() {
+        std::random_device rd;
+        std::mt19937 gen(rd());
+        std::uniform_real_distribution<float> dist(0.0f, 2.0f * M_PI);
+
+        float angle = dist(gen);
+        return sf::Vector2f(cos(angle), sin(angle));
+    }
 
 private:
     sf::VertexArray array;

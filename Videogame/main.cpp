@@ -16,7 +16,7 @@ int main() {
     std::vector<Entity*> entities{};
 
     entities.push_back(new Player());
-    entities.push_back(new Asteroids(sf::Vector2f(1, 0)));
+    entities.push_back(new Asteroids(Asteroids::randomDirection()));
 
     while (window.isOpen()) {
         float deltaTime = clock.restart().asSeconds();

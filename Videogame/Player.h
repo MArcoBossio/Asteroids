@@ -9,7 +9,7 @@
 
 class Player : public Entity {
 public:
-    Player() : Entity(sf::Vector2f (550, 500), 0), array(sf::Triangles, 3), shooterTimer() {
+    Player() : Entity(sf::Vector2f (550, 500), 45), array(sf::Triangles, 3), shooterTimer() {
         array[0].position = sf::Vector2f(0, -20);
         array[1].position = sf::Vector2f(-20, 20);
         array[2].position = sf::Vector2f(20, 20);

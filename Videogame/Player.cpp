@@ -14,6 +14,7 @@
 #define SCREEN_HEIGHT 900
 #define PLAYER_W 50
 #define PLAYER_H 50
+#define BULLET_ANGLE 30.0f
 
 using namespace std;
 
@@ -40,8 +41,17 @@ void Player::update(float deltaTime, std::vector<Entity*> &entities) {
         position.y = std::min(std::max(position.y, PLAYER_H / 2.0f), SCREEN_HEIGHT - PLAYER_H / 2.0f);
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) and shooterTimer <= 0) {
-        sf::Vector2f bulletDirection = sf::Vector2f(cos(radiant), -sin(radiant)); // direction pointing in the direction of the top part of the triangle
-        sf::Vector2f bulletPosition = position + sf::Vector2f(array[0].position.x, array[0].position.y);
+        float bulletAngle = radiant + BULLET_ANGLE; // BULLET_ANGLE is the angle by which you want to rotate the bullet's position and direction
+
+        sf::Vector2f bulletDirection = sf::Vector2f(cos(bulletAngle), sin(bulletAngle)); // direction pointing in the direction of the top part of the triangle
+
+        sf::Vector2f topPart = sf::Vector2f(array[0].position.x, array[0].position.y);
+        sf::Vector2f rotatedTopPart = sf::Vector2f(
+                topPart.x * cos(bulletAngle) - topPart.y * sin(bulletAngle),
+                topPart.x * sin(bulletAngle) + topPart.y * cos(bulletAngle)
+        );
+        sf::Vector2f bulletPosition = position + rotatedTopPart;
+
         entities.push_back(new Bullet(bulletPosition, bulletDirection));
         shooterTimer = SHOOT_DELAY;
     }
