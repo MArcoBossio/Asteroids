@@ -7,7 +7,7 @@
 #include <cmath>
 #include <vector>
 
-
+#define ASTEROID_SPAWN_TIME 5.0f
 
 int main() {
     sf::RenderWindow window(sf::VideoMode(1200, 900), "Asteroids!", sf::Style::Close | sf::Style::Titlebar);
@@ -17,6 +17,8 @@ int main() {
 
     entities.push_back(new Player());
     entities.push_back(new Asteroids(Asteroids::randomDirection()));
+
+    float asteroidSpawnTime = ASTEROID_SPAWN_TIME;
 
     while (window.isOpen()) {
         float deltaTime = clock.restart().asSeconds();
@@ -28,6 +30,13 @@ int main() {
         }
 
         window.clear();
+
+        asteroidSpawnTime -= deltaTime;
+        if (asteroidSpawnTime <= 0) {
+            entities.push_back(new Asteroids(Asteroids::randomDirection()));
+            asteroidSpawnTime = ASTEROID_SPAWN_TIME;
+        }
+
         for (size_t i = 0; i < entities.size(); i++) {
             entities[i]->update(deltaTime, entities);
             entities[i]->render(window);
