@@ -9,17 +9,14 @@
 #include "SFML/Graphics.hpp"
 #include "Entity.h"
 #include <cmath>
-#include <random>
-#define ASTEROID_W 50.0f
-#define ASTEROID_H 40.0f
-#define SCREEN_WIDTH 1200
-#define SCREEN_HEIGHT 900
+#include <ctime>
+#include <cstdlib>
 
 class Asteroids : public Entity {
 public:
     Asteroids(sf::Vector2f direction = Asteroids::randomDirection(),
               sf::Vector2f position = Asteroids::randomPosition())
-    : Entity(sf::Vector2f (900, 300), 0), direction(direction), array(sf::LineStrip, 12){
+    : Entity(sf::Vector2f ( rand() % 1200,  rand() % 900), 0), direction(direction), array(sf::LineStrip, 12){
         array[0].position = sf::Vector2f(-40, 40);
         array[1].position = sf::Vector2f(-50, 10);
         array[2].position = sf::Vector2f(-10, -20);
@@ -43,23 +40,9 @@ public:
 
     void update(float deltaTime, std::vector<Entity*> &entities) override;
 
-    static sf::Vector2f randomDirection() {
-        std::random_device rd;
-        std::mt19937 gen(rd());
-        std::uniform_real_distribution<float> dist(0.0f, 2.0f * M_PI);
+    static sf::Vector2f randomDirection();
 
-        float angle = dist(gen);
-        return sf::Vector2f(cos(angle), sin(angle));
-    }
-
-    static sf::Vector2f randomPosition() {
-        std::random_device rd;
-        std::mt19937 gen(rd());
-        std::uniform_real_distribution<float> xAxis(ASTEROID_W / 2.0f, SCREEN_WIDTH - ASTEROID_W / 2.0f);
-        std::uniform_real_distribution<float> yAxis(ASTEROID_H / 2.0f, SCREEN_HEIGHT - ASTEROID_H / 2.0f);
-
-        return sf::Vector2f(xAxis(gen), yAxis(gen));
-    }
+    static sf::Vector2f randomPosition();
 
 private:
     sf::VertexArray array;

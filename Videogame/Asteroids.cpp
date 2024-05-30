@@ -6,6 +6,7 @@
 #include "Entity.h"
 #include "SFML/Graphics.hpp"
 #include <cmath>
+#include <random>
 
 #define ASTEROID_SPIN 25.0f
 #define ASTEROID_SPEED 280.0f
@@ -37,4 +38,22 @@ void Asteroids::update(float deltaTime, std::vector<Entity*> &entities) {
     else if (position.y > SCREEN_HEIGHT - ASTEROID_H / 2.0f) {
         direction.y = -abs(direction.y);
     }
+}
+
+sf::Vector2f Asteroids::randomDirection() {
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_real_distribution<float> dist(0.0f, 2.0f * M_PI);
+
+    float angle = dist(gen);
+    return sf::Vector2f(cos(angle), sin(angle));
+}
+
+sf::Vector2f Asteroids::randomPosition() {
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_real_distribution<float> xAxis(ASTEROID_W / 2.0f, SCREEN_WIDTH - ASTEROID_W / 2.0f);
+    std::uniform_real_distribution<float> yAxis(ASTEROID_H / 2.0f, SCREEN_HEIGHT - ASTEROID_H / 2.0f);
+
+    return sf::Vector2f(xAxis(gen), yAxis(gen));
 }
