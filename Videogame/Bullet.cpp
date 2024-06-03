@@ -3,12 +3,14 @@
 //
 #include "Entity.h"
 #include "Bullet.h"
+#include "Game.h"
 #include "SFML/Graphics.hpp"
 
 #define BULLET_SPEED 400.0f
 
 void Bullet::update(float deltaTime, std::vector<Entity*> &entities) {
     position += direction * BULLET_SPEED * deltaTime;
+    //Game::toRemoveList.push_back(Game::entities.begin(), Game::entities.end(), this);
 }
 
 void Bullet::render(sf::RenderWindow &window) {

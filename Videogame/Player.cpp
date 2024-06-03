@@ -6,6 +6,7 @@
 #include "Bullet.h"
 #include "SFML/Graphics.hpp"
 #include <cmath>
+#include "Game.h"
 
 #define TURN_SPEED 180.0f
 #define SPEED 150.0f
@@ -52,7 +53,7 @@ void Player::update(float deltaTime, std::vector<Entity*> &entities) {
         );
         sf::Vector2f bulletPosition = position + rotatedTopPart;
 
-        entities.push_back(new Bullet(bulletPosition, bulletDirection));
+        Game::toAddList.push_back(new Bullet(bulletPosition, bulletDirection));
         shooterTimer = SHOOT_DELAY;
     }
 }
