@@ -38,6 +38,28 @@ void Asteroids::update(float deltaTime, std::vector<Entity*> &entities) {
     else if (position.y > SCREEN_HEIGHT - ASTEROID_H / 2.0f) {
         direction.y = -abs(direction.y);
     }
+
+    sf::CircleShape asteroidCircle = getBoundingCircle();
+    for (auto it = entities.begin(); it != entities.end(); ) {
+        if (Asteroids* otherAsteroid = dynamic_cast<Asteroids*>(*it)) {
+            if (otherAsteroid == this) {
+                ++it; // Skip self
+                continue;
+            }
+
+            sf::CircleShape otherAsteroidCircle = otherAsteroid->getBoundingCircle();
+            if (asteroidCircle.getGlobalBounds().intersects(otherAsteroidCircle.getGlobalBounds())) {
+                // Collision detected, remove both asteroids
+                delete *it;
+                it = entities.erase(it);
+                return; // Current asteroid is destroyed, no need to check other asteroids
+            } else {
+                ++it;
+            }
+        } else {
+            ++it;
+        }
+    }
 }
 
 sf::Vector2f Asteroids::randomDirection() {

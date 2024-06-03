@@ -597,6 +597,18 @@ CMakeFiles/Videogame.dir/Bullet.cpp.o
  /usr/include/c++/11/bits/stl_list.h
  /usr/include/c++/11/bits/allocated_ptr.h
  /usr/include/c++/11/bits/list.tcc
+ /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Asteroids.h
+ /usr/include/c++/11/cmath
+ /usr/include/math.h
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h
  /usr/include/c++/11/limits
 
 CMakeFiles/Videogame.dir/Entity.cpp.o
