@@ -21,6 +21,8 @@ public:
     void update(float deltaTime, std::vector<Entity*> &entities) override;
     void render(sf::RenderWindow &window) override;
 
+    sf::CircleShape getBoundingCircle() const;
+
 private:
     sf::Vector2f direction;
     sf::Sprite sprite;

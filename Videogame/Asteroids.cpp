@@ -9,7 +9,7 @@
 #include <random>
 
 #define ASTEROID_SPIN 25.0f
-#define ASTEROID_SPEED 280.0f
+#define ASTEROID_SPEED 150.0f
 #define ASTEROID_W 50.0f
 #define ASTEROID_H 40.0f
 #define SCREEN_WIDTH 1200
@@ -56,4 +56,14 @@ sf::Vector2f Asteroids::randomPosition() {
     std::uniform_real_distribution<float> yAxis(ASTEROID_H / 2.0f, SCREEN_HEIGHT - ASTEROID_H / 2.0f);
 
     return sf::Vector2f(xAxis(gen), yAxis(gen));
+}
+
+const sf::VertexArray &Asteroids::getVertexArray() const {
+    return array;
+}
+
+sf::CircleShape Asteroids::getBoundingCircle() const {
+    sf::CircleShape circle(40.0f);
+    circle.setPosition(position);
+    return circle;
 }

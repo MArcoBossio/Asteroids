@@ -38,11 +38,15 @@ public:
 
     void render(sf::RenderWindow &window) override;
 
+    const sf::VertexArray &getVertexArray() const;
+
     void update(float deltaTime, std::vector<Entity*> &entities) override;
 
     static sf::Vector2f randomDirection();
 
     static sf::Vector2f randomPosition();
+
+    sf::CircleShape getBoundingCircle() const;
 
 private:
     sf::VertexArray array;

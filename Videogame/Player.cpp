@@ -35,7 +35,7 @@ void Player::update(float deltaTime, std::vector<Entity*> &entities) {
     }
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::W)) {
         position.x += cos(radiant) * SPEED * deltaTime;
-        position.y += sin(radiant) * SPEED * deltaTime;
+        position.y -= sin(radiant) * SPEED * deltaTime;
 
         position.x = std::min(std::max(position.x, PLAYER_W / 2.0f), SCREEN_WIDTH - PLAYER_W / 2.0f);
         position.y = std::min(std::max(position.y, PLAYER_H / 2.0f), SCREEN_HEIGHT - PLAYER_H / 2.0f);
