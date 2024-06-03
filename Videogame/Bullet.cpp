@@ -4,6 +4,7 @@
 #include "Entity.h"
 #include "Bullet.h"
 #include "Game.h"
+#include "Asteroids.h"
 #include "SFML/Graphics.hpp"
 #include <limits>
 
@@ -11,7 +12,23 @@
 
 void Bullet::update(float deltaTime, std::vector<Entity*> &entities) {
     position += direction * BULLET_SPEED * deltaTime;
-    //Game::toRemoveList.push_back(Game::entities.begin(), Game::entities.end(), this);
+
+    sf::CircleShape bulletCircle = getBoundingCircle();
+    for (auto it = entities.begin(); it != entities.end(); ) {
+        if (Asteroids* asteroid = dynamic_cast<Asteroids*>(*it)) {
+            sf::CircleShape asteroidCircle = asteroid->getBoundingCircle();
+            if (bulletCircle.getGlobalBounds().intersects(asteroidCircle.getGlobalBounds())) {
+                // Collision detected, remove the bullet
+                delete *it;
+                it = entities.erase(it);
+                return; // Bullet is destroyed, no need to check other asteroids
+            } else {
+                ++it;
+            }
+        } else {
+            ++it;
+        }
+    }
 }
 
 void Bullet::render(sf::RenderWindow &window) {
