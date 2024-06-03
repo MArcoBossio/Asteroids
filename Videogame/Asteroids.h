@@ -14,7 +14,7 @@
 
 class Asteroids : public Entity {
 public:
-    Asteroids(sf::Vector2f direction = Asteroids::randomDirection(),
+    explicit Asteroids(sf::Vector2f direction = Asteroids::randomDirection(),
               sf::Vector2f position = Asteroids::randomPosition())
     : Entity(sf::Vector2f ( rand() % 1200,  rand() % 900), 0), direction(direction), array(sf::LineStrip, 12){
         array[0].position = sf::Vector2f(-40, 40);

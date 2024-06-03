@@ -4,8 +4,10 @@
 #include "Entity.h"
 #include "Bullet.h"
 #include "Asteroids.h"
+#include "Game.h"
 #include <cmath>
 #include <vector>
+#include <list>
 
 #define ASTEROID_SPAWN_TIME 5.0f
 
@@ -13,12 +15,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(1200, 900), "Asteroids!", sf::Style::Close | sf::Style::Titlebar);
     sf::Clock clock;
 
-    std::vector<Entity*> entities{};
-
-    entities.push_back(new Player());
-    entities.push_back(new Asteroids(Asteroids::randomDirection()));
-
-    float asteroidSpawnTime = ASTEROID_SPAWN_TIME;
+    Game::begin();
 
     while (window.isOpen()) {
         float deltaTime = clock.restart().asSeconds();
@@ -29,18 +26,8 @@ int main() {
             }
         }
 
-        window.clear();
+        Game::update(window, deltaTime);
 
-        asteroidSpawnTime -= deltaTime;
-        if (asteroidSpawnTime <= 0) {
-            entities.push_back(new Asteroids(Asteroids::randomDirection()));
-            asteroidSpawnTime = ASTEROID_SPAWN_TIME;
-        }
-
-        for (size_t i = 0; i < entities.size(); i++) {
-            entities[i]->update(deltaTime, entities);
-            entities[i]->render(window);
-        }
         window.display();
     }
 
