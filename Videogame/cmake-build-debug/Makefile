@@ -129,6 +129,45 @@ Videogame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/build
 .PHONY : Videogame/fast
 
+#=============================================================================
+# Target rules for targets named runUnitTests
+
+# Build rule for target.
+runUnitTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runUnitTests
+.PHONY : runUnitTests
+
+# fast build rule for target.
+runUnitTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build
+.PHONY : runUnitTests/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/CMakeFiles/gtest.dir/build.make googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/CMakeFiles/gtest_main.dir/build.make googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 Asteroids.o: Asteroids.cpp.o
 .PHONY : Asteroids.o
 
@@ -249,6 +288,33 @@ Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+PlayerTest.o: PlayerTest.cpp.o
+.PHONY : PlayerTest.o
+
+# target to build an object file
+PlayerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/PlayerTest.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o
+.PHONY : PlayerTest.cpp.o
+
+PlayerTest.i: PlayerTest.cpp.i
+.PHONY : PlayerTest.i
+
+# target to preprocess a source file
+PlayerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/PlayerTest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/PlayerTest.cpp.i
+.PHONY : PlayerTest.cpp.i
+
+PlayerTest.s: PlayerTest.cpp.s
+.PHONY : PlayerTest.s
+
+# target to generate assembly for a file
+PlayerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/PlayerTest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/PlayerTest.cpp.s
+.PHONY : PlayerTest.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -282,6 +348,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Videogame"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... runUnitTests"
 	@echo "... Asteroids.o"
 	@echo "... Asteroids.i"
 	@echo "... Asteroids.s"
@@ -297,6 +366,9 @@ help:
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... PlayerTest.o"
+	@echo "... PlayerTest.i"
+	@echo "... PlayerTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,6 +4,7 @@
 #include "Entity.h"
 #include "Player.h"
 #include "Bullet.h"
+#include "Asteroids.h"
 #include "SFML/Graphics.hpp"
 #include <cmath>
 #include "Game.h"
@@ -56,4 +57,21 @@ void Player::update(float deltaTime, std::vector<Entity*> &entities) {
         Game::toAddList.push_back(new Bullet(bulletPosition, bulletDirection));
         shooterTimer = SHOOT_DELAY;
     }
+
+    sf::CircleShape playerCircle = getBoundingCircle();
+    for (auto it = entities.begin(); it != entities.end(); ++it) {
+        if (Asteroids *asteroid = dynamic_cast<Asteroids *>(*it)) {
+            sf::CircleShape asteroidCircle = asteroid->getBoundingCircle();
+            if (playerCircle.getGlobalBounds().intersects(asteroidCircle.getGlobalBounds())) {
+                // Collision detected, close the game
+                exit(0);
+            }
+        }
+    }
+}
+
+sf::CircleShape Player::getBoundingCircle() const {
+    sf::CircleShape circle(25.0f);
+    circle.setPosition(position);
+    return circle;
 }

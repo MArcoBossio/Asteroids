@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Entity.cpp" "CMakeFiles/Videogame.dir/Entity.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Entity.cpp.o.d"
   "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Game.cpp" "CMakeFiles/Videogame.dir/Game.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Game.cpp.o.d"
   "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Player.cpp" "CMakeFiles/Videogame.dir/Player.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Player.cpp.o.d"
+  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/PlayerTest.cpp" "CMakeFiles/Videogame.dir/PlayerTest.cpp.o" "gcc" "CMakeFiles/Videogame.dir/PlayerTest.cpp.o.d"
   "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/main.cpp" "CMakeFiles/Videogame.dir/main.cpp.o" "gcc" "CMakeFiles/Videogame.dir/main.cpp.o.d"
   )
 

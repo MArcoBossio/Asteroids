@@ -4,7 +4,7 @@ project(Videogame)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Videogame main.cpp Player.cpp Player.h Entity.cpp Entity.h Bullet.cpp Bullet.h
-        Asteroids.cpp Asteroids.h Game.cpp Game.h)
+        Asteroids.cpp Asteroids.h Game.cpp Game.h PlayerTest.cpp)
 
 include_directories(/usr/local/include)
 
@@ -16,3 +16,9 @@ add_custom_command(TARGET Videogame POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${CMAKE_SOURCE_DIR}/assets
         $<TARGET_FILE_DIR:Videogame>/assets)
+
+set(GTEST_DIR googletest)
+include_directories(${GTEST_DIR}/googletest/include ${GTEST_DIR}/googlemock/include)
+add_subdirectory(googletest)
+add_executable(runUnitTests PlayerTest.cpp)
+target_link_libraries(runUnitTests gtest gtest_main)

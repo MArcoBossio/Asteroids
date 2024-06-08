@@ -23,10 +23,11 @@ public:
 
     void update(float deltaTime, std::vector<Entity*> &entities) override;
 
+    sf::CircleShape getBoundingCircle() const;
+
 private:
     sf::VertexArray array;
     float shooterTimer;
-
 };
 
 

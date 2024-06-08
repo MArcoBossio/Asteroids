@@ -1483,6 +1483,7 @@ CMakeFiles/Videogame.dir/Player.cpp.o: ../Player.cpp \
   /usr/include/SFML/Graphics/VertexBuffer.hpp \
   ../Player.h \
   ../Bullet.h \
+  ../Asteroids.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
