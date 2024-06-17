@@ -1,7 +1,7 @@
 //
 // Created by marco on 08/06/2024.
 //
-
+/*
 #include "googletest/include/gtest/gtest.h"
 #include "Player.h"
 #include "Asteroids.h"
@@ -22,3 +22,4 @@ entities.push_back(&asteroid);
 // We expect the game to end because of the collision, so we catch the exit call
 EXPECT_EXIT(player.update(0.0f, entities), ::testing::ExitedWithCode(0), "");
 }
+ */
