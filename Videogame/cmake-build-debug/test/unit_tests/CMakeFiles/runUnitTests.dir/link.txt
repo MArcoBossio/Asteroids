@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o -o runUnitTests  ../../lib/libgtest.a ../../lib/libgtest_main.a ../../lib/libgtest.a 

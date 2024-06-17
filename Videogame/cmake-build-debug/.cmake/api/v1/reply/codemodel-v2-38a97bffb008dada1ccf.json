@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -19,8 +20,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						3
+						0
 					]
 				},
 				{
@@ -38,6 +38,21 @@
 						1,
 						2
 					]
+				},
+				{
+					"build" : "test/unit_tests",
+					"jsonFile" : "directory-test.unit_tests-Debug-88954ebe49f3d97f5195.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test/unit_tests",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
@@ -47,7 +62,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "Videogame",
 					"targetIndexes" : 
@@ -64,7 +80,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Videogame::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Videogame-Debug-d8b67ce062c52b5c1ed7.json",
+					"jsonFile" : "target-Videogame-Debug-566ef2d8ada5b6b68c10.json",
 					"name" : "Videogame",
 					"projectIndex" : 0
 				},
@@ -83,9 +99,9 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 0,
-					"id" : "runUnitTests::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-runUnitTests-Debug-455e8ba4cdfcbe15ef6a.json",
+					"directoryIndex" : 2,
+					"id" : "runUnitTests::@f8d01a5882d5959a738d",
+					"jsonFile" : "target-runUnitTests-Debug-20f355b280cfbb671e55.json",
 					"name" : "runUnitTests",
 					"projectIndex" : 0
 				}

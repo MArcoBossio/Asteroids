@@ -2,9 +2,9 @@
 // Created by marco on 08/06/2024.
 //
 
-#include "googletest/include/gtest/gtest.h"
-#include "Player.h"
-#include "Asteroids.h"
+#include "gtest/gtest.h"
+#include "../../Asteroids.h"
+#include "../../Player.h"
 
 TEST(PlayerTest, CollisionWithAsteroid) {
 Player player;

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "runUnitTests"
+			"path" : "test/unit_tests/runUnitTests"
 		}
 	],
 	"backtrace" : 1,
@@ -16,6 +16,7 @@
 		],
 		"files" : 
 		[
+			"test/unit_tests/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -26,20 +27,29 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 21,
+				"line" : 2,
 				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 4
 			}
 		]
 	},
@@ -49,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
+					"fragment" : "-g -fPIE"
 				},
 				{
 					"fragment" : "-std=gnu++14"
@@ -59,6 +69,14 @@
 			[
 				{
 					"backtrace" : 3,
+					"path" : "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/test/unit_tests/googletest/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/test/unit_tests/googletest"
+				},
+				{
+					"backtrace" : 5,
 					"isSystem" : true,
 					"path" : "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest/include"
 				},
@@ -79,7 +97,8 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -94,7 +113,7 @@
 			"id" : "gtest_main::@b3026ea3adfb7c2366ee"
 		}
 	],
-	"id" : "runUnitTests::@6890427a1f51a3e7e1df",
+	"id" : "runUnitTests::@f8d01a5882d5959a738d",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -109,17 +128,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest.a",
+				"fragment" : "../../lib/libgtest.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest_main.a",
+				"fragment" : "../../lib/libgtest_main.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "lib/libgtest.a",
+				"fragment" : "../../lib/libgtest.a",
 				"role" : "libraries"
 			}
 		],
@@ -129,8 +148,8 @@
 	"nameOnDisk" : "runUnitTests",
 	"paths" : 
 	{
-		"build" : ".",
-		"source" : "."
+		"build" : "test/unit_tests",
+		"source" : "test/unit_tests"
 	},
 	"sourceGroups" : 
 	[
@@ -138,7 +157,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -147,7 +167,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "AsteroidsTest.cpp",
+			"path" : "test/unit_tests/AsteroidsTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/unit_tests/PlayerTest.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

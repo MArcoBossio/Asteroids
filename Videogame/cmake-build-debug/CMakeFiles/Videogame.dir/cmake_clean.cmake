@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Videogame.dir/Asteroids.cpp.o"
   "CMakeFiles/Videogame.dir/Asteroids.cpp.o.d"
-  "CMakeFiles/Videogame.dir/AsteroidsTest.cpp.o"
-  "CMakeFiles/Videogame.dir/AsteroidsTest.cpp.o.d"
   "CMakeFiles/Videogame.dir/Bullet.cpp.o"
   "CMakeFiles/Videogame.dir/Bullet.cpp.o.d"
   "CMakeFiles/Videogame.dir/Entity.cpp.o"
@@ -11,8 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Videogame.dir/Game.cpp.o.d"
   "CMakeFiles/Videogame.dir/Player.cpp.o"
   "CMakeFiles/Videogame.dir/Player.cpp.o.d"
-  "CMakeFiles/Videogame.dir/PlayerTest.cpp.o"
-  "CMakeFiles/Videogame.dir/PlayerTest.cpp.o.d"
   "CMakeFiles/Videogame.dir/main.cpp.o"
   "CMakeFiles/Videogame.dir/main.cpp.o.d"
   "Videogame"

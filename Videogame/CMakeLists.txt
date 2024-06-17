@@ -4,7 +4,7 @@ project(Videogame)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Videogame main.cpp Player.cpp Player.h Entity.cpp Entity.h Bullet.cpp Bullet.h
-        Asteroids.cpp Asteroids.h Game.cpp Game.h PlayerTest.cpp AsteroidsTest.cpp)
+        Asteroids.cpp Asteroids.h Game.cpp Game.h)
 
 include_directories(/usr/local/include)
 
@@ -20,5 +20,4 @@ add_custom_command(TARGET Videogame POST_BUILD
 set(GTEST_DIR googletest)
 include_directories(${GTEST_DIR}/include ${GTEST_DIR}/include)
 add_subdirectory(googletest)
-add_executable(runUnitTests AsteroidsTest.cpp)
-target_link_libraries(runUnitTests gtest gtest_main)
+add_subdirectory(test/unit_tests)

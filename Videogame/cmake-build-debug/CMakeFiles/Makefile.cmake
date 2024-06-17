@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../googletest/CMakeLists.txt"
   "../googletest/cmake/internal_utils.cmake"
+  "../test/unit_tests/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake"
@@ -56,12 +57,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/unit_tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Videogame.dir/DependInfo.cmake"
-  "CMakeFiles/runUnitTests.dir/DependInfo.cmake"
   "googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "test/unit_tests/CMakeFiles/runUnitTests.dir/DependInfo.cmake"
   )
