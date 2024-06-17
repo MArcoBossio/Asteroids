@@ -63,7 +63,9 @@ void Player::update(float deltaTime, std::vector<Entity*> &entities) {
         if (Asteroids *asteroid = dynamic_cast<Asteroids *>(*it)) {
             sf::CircleShape asteroidCircle = asteroid->getBoundingCircle();
             if (playerCircle.getGlobalBounds().intersects(asteroidCircle.getGlobalBounds())) {
-                // Collision detected, close the game
+                // Collision detected, set collided to true
+                bool collided = true;
+                // Exit the game
                 exit(0);
             }
         }

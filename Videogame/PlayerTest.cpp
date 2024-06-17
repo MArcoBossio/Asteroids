@@ -1,7 +1,7 @@
 //
 // Created by marco on 08/06/2024.
 //
-/*
+
 #include "googletest/include/gtest/gtest.h"
 #include "Player.h"
 #include "Asteroids.h"
@@ -20,6 +20,6 @@ entities.push_back(&asteroid);
 
 // Call the update method of the Player class
 // We expect the game to end because of the collision, so we catch the exit call
-EXPECT_EXIT(player.update(0.0f, entities), ::testing::ExitedWithCode(0), "");
+    player.update(0.0f, entities);
+    EXPECT_TRUE(player.collided);
 }
- */

@@ -19,6 +19,8 @@ public:
         }
     }
 
+    bool collided = false;
+
     void render(sf::RenderWindow &window) override;
 
     void update(float deltaTime, std::vector<Entity*> &entities) override;

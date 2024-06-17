@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest/googletest/include -I/mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest/googlemock/include -isystem /mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest/include -isystem /mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest
+CXX_INCLUDES = -isystem /mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest/include -isystem /mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest
 
 CXX_FLAGS = -g -std=gnu++14
 

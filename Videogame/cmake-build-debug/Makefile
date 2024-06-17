@@ -129,6 +129,45 @@ Videogame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/build
 .PHONY : Videogame/fast
 
+#=============================================================================
+# Target rules for targets named runUnitTests
+
+# Build rule for target.
+runUnitTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 runUnitTests
+.PHONY : runUnitTests
+
+# fast build rule for target.
+runUnitTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/build
+.PHONY : runUnitTests/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/CMakeFiles/gtest.dir/build.make googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f googletest/CMakeFiles/gtest_main.dir/build.make googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 Asteroids.o: Asteroids.cpp.o
 .PHONY : Asteroids.o
 
@@ -159,6 +198,7 @@ AsteroidsTest.o: AsteroidsTest.cpp.o
 # target to build an object file
 AsteroidsTest.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/AsteroidsTest.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o
 .PHONY : AsteroidsTest.cpp.o
 
 AsteroidsTest.i: AsteroidsTest.cpp.i
@@ -167,6 +207,7 @@ AsteroidsTest.i: AsteroidsTest.cpp.i
 # target to preprocess a source file
 AsteroidsTest.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/AsteroidsTest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.i
 .PHONY : AsteroidsTest.cpp.i
 
 AsteroidsTest.s: AsteroidsTest.cpp.s
@@ -175,6 +216,7 @@ AsteroidsTest.s: AsteroidsTest.cpp.s
 # target to generate assembly for a file
 AsteroidsTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/AsteroidsTest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runUnitTests.dir/build.make CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.s
 .PHONY : AsteroidsTest.cpp.s
 
 Bullet.o: Bullet.cpp.o
@@ -330,6 +372,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Videogame"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... runUnitTests"
 	@echo "... Asteroids.o"
 	@echo "... Asteroids.i"
 	@echo "... Asteroids.s"

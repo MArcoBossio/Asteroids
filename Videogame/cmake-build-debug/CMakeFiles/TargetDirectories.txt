@@ -1,3 +1,8 @@
 /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles/Videogame.dir
+/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles/runUnitTests.dir
 /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/googletest/CMakeFiles/gtest.dir
+/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/googletest/CMakeFiles/gtest_main.dir
+/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/googletest/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/googletest/CMakeFiles/rebuild_cache.dir

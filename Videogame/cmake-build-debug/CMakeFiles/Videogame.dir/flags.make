@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/mnt/c/Users/marco/Desktop/Asteroids/Videogame/googletest/include
 
-CXX_FLAGS = -g -std=gnu++11
+CXX_FLAGS = -g -std=gnu++14
 

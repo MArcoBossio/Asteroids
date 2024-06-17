@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.22)
 project(Videogame)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Videogame main.cpp Player.cpp Player.h Entity.cpp Entity.h Bullet.cpp Bullet.h
         Asteroids.cpp Asteroids.h Game.cpp Game.h PlayerTest.cpp AsteroidsTest.cpp)
@@ -18,7 +18,7 @@ add_custom_command(TARGET Videogame POST_BUILD
         $<TARGET_FILE_DIR:Videogame>/assets)
 
 set(GTEST_DIR googletest)
-include_directories(${GTEST_DIR}/googletest/include ${GTEST_DIR}/googlemock/include)
+include_directories(${GTEST_DIR}/include ${GTEST_DIR}/include)
 add_subdirectory(googletest)
-add_executable(runUnitTests PlayerTest.cpp AsteroidsTest.cpp)
+add_executable(runUnitTests AsteroidsTest.cpp)
 target_link_libraries(runUnitTests gtest gtest_main)

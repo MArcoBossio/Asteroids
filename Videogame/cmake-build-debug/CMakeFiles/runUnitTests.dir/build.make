@@ -69,28 +69,28 @@ include CMakeFiles/runUnitTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/runUnitTests.dir/flags.make
 
-CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
-CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o: ../PlayerTest.cpp
-CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o -MF CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o.d -o CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/PlayerTest.cpp
+CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o: CMakeFiles/runUnitTests.dir/flags.make
+CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o: ../AsteroidsTest.cpp
+CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o: CMakeFiles/runUnitTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o -MF CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o.d -o CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/AsteroidsTest.cpp
 
-CMakeFiles/runUnitTests.dir/PlayerTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/PlayerTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/PlayerTest.cpp > CMakeFiles/runUnitTests.dir/PlayerTest.cpp.i
+CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/AsteroidsTest.cpp > CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.i
 
-CMakeFiles/runUnitTests.dir/PlayerTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/PlayerTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/PlayerTest.cpp -o CMakeFiles/runUnitTests.dir/PlayerTest.cpp.s
+CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/AsteroidsTest.cpp -o CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.s
 
 # Object files for target runUnitTests
 runUnitTests_OBJECTS = \
-"CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o"
+"CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o"
 
 # External object files for target runUnitTests
 runUnitTests_EXTERNAL_OBJECTS =
 
-runUnitTests: CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o
+runUnitTests: CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o
 runUnitTests: CMakeFiles/runUnitTests.dir/build.make
 runUnitTests: lib/libgtest.a
 runUnitTests: lib/libgtest_main.a
