@@ -3,8 +3,8 @@
 //
 
 #include "gtest/gtest.h"
-#include "../../Asteroids.h"
-#include "../../Bullet.h"
+#include "../src/Asteroids.h"
+#include "../src/Bullet.h"
 
 TEST(AsteroidsTest, CollisionWithBullet) {
     // Declare and initialize the variables before using them

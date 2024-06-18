@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/test/unit_tests/AsteroidsTest.cpp" "test/unit_tests/CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o" "gcc" "test/unit_tests/CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o.d"
-  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/test/unit_tests/PlayerTest.cpp" "test/unit_tests/CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o" "gcc" "test/unit_tests/CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o.d"
   )
 
 # Targets to which this target links.

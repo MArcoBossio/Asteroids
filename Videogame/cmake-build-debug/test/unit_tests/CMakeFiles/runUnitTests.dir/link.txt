@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o -o runUnitTests  ../../lib/libgtest.a ../../lib/libgtest_main.a ../../lib/libgtest.a 
+/usr/bin/c++ -g CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.o -o runUnitTests  ../../lib/libgtest.a ../../lib/libgtest_main.a /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1 ../../lib/libgtest.a 

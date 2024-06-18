@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Asteroids.cpp" "CMakeFiles/Videogame.dir/Asteroids.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Asteroids.cpp.o.d"
-  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Bullet.cpp" "CMakeFiles/Videogame.dir/Bullet.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Bullet.cpp.o.d"
-  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Entity.cpp" "CMakeFiles/Videogame.dir/Entity.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Entity.cpp.o.d"
-  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Game.cpp" "CMakeFiles/Videogame.dir/Game.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Game.cpp.o.d"
-  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/Player.cpp" "CMakeFiles/Videogame.dir/Player.cpp.o" "gcc" "CMakeFiles/Videogame.dir/Player.cpp.o.d"
   "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/main.cpp" "CMakeFiles/Videogame.dir/main.cpp.o" "gcc" "CMakeFiles/Videogame.dir/main.cpp.o.d"
+  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Asteroids.cpp" "CMakeFiles/Videogame.dir/src/Asteroids.cpp.o" "gcc" "CMakeFiles/Videogame.dir/src/Asteroids.cpp.o.d"
+  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Bullet.cpp" "CMakeFiles/Videogame.dir/src/Bullet.cpp.o" "gcc" "CMakeFiles/Videogame.dir/src/Bullet.cpp.o.d"
+  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Entity.cpp" "CMakeFiles/Videogame.dir/src/Entity.cpp.o" "gcc" "CMakeFiles/Videogame.dir/src/Entity.cpp.o.d"
+  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Game.cpp" "CMakeFiles/Videogame.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Videogame.dir/src/Game.cpp.o.d"
+  "/mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Player.cpp" "CMakeFiles/Videogame.dir/src/Player.cpp.o" "gcc" "CMakeFiles/Videogame.dir/src/Player.cpp.o.d"
   )
 
 # Targets to which this target links.

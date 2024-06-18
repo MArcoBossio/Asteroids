@@ -168,126 +168,6 @@ runUnitTests/fast:
 	$(MAKE) $(MAKESILENT) -f test/unit_tests/CMakeFiles/runUnitTests.dir/build.make test/unit_tests/CMakeFiles/runUnitTests.dir/build
 .PHONY : runUnitTests/fast
 
-Asteroids.o: Asteroids.cpp.o
-.PHONY : Asteroids.o
-
-# target to build an object file
-Asteroids.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Asteroids.cpp.o
-.PHONY : Asteroids.cpp.o
-
-Asteroids.i: Asteroids.cpp.i
-.PHONY : Asteroids.i
-
-# target to preprocess a source file
-Asteroids.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Asteroids.cpp.i
-.PHONY : Asteroids.cpp.i
-
-Asteroids.s: Asteroids.cpp.s
-.PHONY : Asteroids.s
-
-# target to generate assembly for a file
-Asteroids.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Asteroids.cpp.s
-.PHONY : Asteroids.cpp.s
-
-Bullet.o: Bullet.cpp.o
-.PHONY : Bullet.o
-
-# target to build an object file
-Bullet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Bullet.cpp.o
-.PHONY : Bullet.cpp.o
-
-Bullet.i: Bullet.cpp.i
-.PHONY : Bullet.i
-
-# target to preprocess a source file
-Bullet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Bullet.cpp.i
-.PHONY : Bullet.cpp.i
-
-Bullet.s: Bullet.cpp.s
-.PHONY : Bullet.s
-
-# target to generate assembly for a file
-Bullet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Bullet.cpp.s
-.PHONY : Bullet.cpp.s
-
-Entity.o: Entity.cpp.o
-.PHONY : Entity.o
-
-# target to build an object file
-Entity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Entity.cpp.o
-.PHONY : Entity.cpp.o
-
-Entity.i: Entity.cpp.i
-.PHONY : Entity.i
-
-# target to preprocess a source file
-Entity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Entity.cpp.i
-.PHONY : Entity.cpp.i
-
-Entity.s: Entity.cpp.s
-.PHONY : Entity.s
-
-# target to generate assembly for a file
-Entity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Entity.cpp.s
-.PHONY : Entity.cpp.s
-
-Game.o: Game.cpp.o
-.PHONY : Game.o
-
-# target to build an object file
-Game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Game.cpp.o
-.PHONY : Game.cpp.o
-
-Game.i: Game.cpp.i
-.PHONY : Game.i
-
-# target to preprocess a source file
-Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Game.cpp.i
-.PHONY : Game.cpp.i
-
-Game.s: Game.cpp.s
-.PHONY : Game.s
-
-# target to generate assembly for a file
-Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Game.cpp.s
-.PHONY : Game.cpp.s
-
-Player.o: Player.cpp.o
-.PHONY : Player.o
-
-# target to build an object file
-Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Player.cpp.o
-.PHONY : Player.cpp.o
-
-Player.i: Player.cpp.i
-.PHONY : Player.i
-
-# target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Player.cpp.i
-.PHONY : Player.cpp.i
-
-Player.s: Player.cpp.s
-.PHONY : Player.s
-
-# target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/Player.cpp.s
-.PHONY : Player.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -312,6 +192,126 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Asteroids.o: src/Asteroids.cpp.o
+.PHONY : src/Asteroids.o
+
+# target to build an object file
+src/Asteroids.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Asteroids.cpp.o
+.PHONY : src/Asteroids.cpp.o
+
+src/Asteroids.i: src/Asteroids.cpp.i
+.PHONY : src/Asteroids.i
+
+# target to preprocess a source file
+src/Asteroids.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Asteroids.cpp.i
+.PHONY : src/Asteroids.cpp.i
+
+src/Asteroids.s: src/Asteroids.cpp.s
+.PHONY : src/Asteroids.s
+
+# target to generate assembly for a file
+src/Asteroids.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Asteroids.cpp.s
+.PHONY : src/Asteroids.cpp.s
+
+src/Bullet.o: src/Bullet.cpp.o
+.PHONY : src/Bullet.o
+
+# target to build an object file
+src/Bullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Bullet.cpp.o
+.PHONY : src/Bullet.cpp.o
+
+src/Bullet.i: src/Bullet.cpp.i
+.PHONY : src/Bullet.i
+
+# target to preprocess a source file
+src/Bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Bullet.cpp.i
+.PHONY : src/Bullet.cpp.i
+
+src/Bullet.s: src/Bullet.cpp.s
+.PHONY : src/Bullet.s
+
+# target to generate assembly for a file
+src/Bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Bullet.cpp.s
+.PHONY : src/Bullet.cpp.s
+
+src/Entity.o: src/Entity.cpp.o
+.PHONY : src/Entity.o
+
+# target to build an object file
+src/Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Entity.cpp.o
+.PHONY : src/Entity.cpp.o
+
+src/Entity.i: src/Entity.cpp.i
+.PHONY : src/Entity.i
+
+# target to preprocess a source file
+src/Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Entity.cpp.i
+.PHONY : src/Entity.cpp.i
+
+src/Entity.s: src/Entity.cpp.s
+.PHONY : src/Entity.s
+
+# target to generate assembly for a file
+src/Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Entity.cpp.s
+.PHONY : src/Entity.cpp.s
+
+src/Game.o: src/Game.cpp.o
+.PHONY : src/Game.o
+
+# target to build an object file
+src/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Game.cpp.o
+.PHONY : src/Game.cpp.o
+
+src/Game.i: src/Game.cpp.i
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
+src/Player.o: src/Player.cpp.o
+.PHONY : src/Player.o
+
+# target to build an object file
+src/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Player.cpp.o
+.PHONY : src/Player.cpp.o
+
+src/Player.i: src/Player.cpp.i
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Videogame.dir/build.make CMakeFiles/Videogame.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -324,24 +324,24 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... runUnitTests"
-	@echo "... Asteroids.o"
-	@echo "... Asteroids.i"
-	@echo "... Asteroids.s"
-	@echo "... Bullet.o"
-	@echo "... Bullet.i"
-	@echo "... Bullet.s"
-	@echo "... Entity.o"
-	@echo "... Entity.i"
-	@echo "... Entity.s"
-	@echo "... Game.o"
-	@echo "... Game.i"
-	@echo "... Game.s"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Asteroids.o"
+	@echo "... src/Asteroids.i"
+	@echo "... src/Asteroids.s"
+	@echo "... src/Bullet.o"
+	@echo "... src/Bullet.i"
+	@echo "... src/Bullet.s"
+	@echo "... src/Entity.o"
+	@echo "... src/Entity.i"
+	@echo "... src/Entity.s"
+	@echo "... src/Game.o"
+	@echo "... src/Game.i"
+	@echo "... src/Game.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
 .PHONY : help
 
 

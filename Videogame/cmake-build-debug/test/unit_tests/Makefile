@@ -154,30 +154,6 @@ AsteroidsTest.cpp.s:
 	cd /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/unit_tests/CMakeFiles/runUnitTests.dir/build.make test/unit_tests/CMakeFiles/runUnitTests.dir/AsteroidsTest.cpp.s
 .PHONY : AsteroidsTest.cpp.s
 
-PlayerTest.o: PlayerTest.cpp.o
-.PHONY : PlayerTest.o
-
-# target to build an object file
-PlayerTest.cpp.o:
-	cd /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/unit_tests/CMakeFiles/runUnitTests.dir/build.make test/unit_tests/CMakeFiles/runUnitTests.dir/PlayerTest.cpp.o
-.PHONY : PlayerTest.cpp.o
-
-PlayerTest.i: PlayerTest.cpp.i
-.PHONY : PlayerTest.i
-
-# target to preprocess a source file
-PlayerTest.cpp.i:
-	cd /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/unit_tests/CMakeFiles/runUnitTests.dir/build.make test/unit_tests/CMakeFiles/runUnitTests.dir/PlayerTest.cpp.i
-.PHONY : PlayerTest.cpp.i
-
-PlayerTest.s: PlayerTest.cpp.s
-.PHONY : PlayerTest.s
-
-# target to generate assembly for a file
-PlayerTest.cpp.s:
-	cd /mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/unit_tests/CMakeFiles/runUnitTests.dir/build.make test/unit_tests/CMakeFiles/runUnitTests.dir/PlayerTest.cpp.s
-.PHONY : PlayerTest.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -190,9 +166,6 @@ help:
 	@echo "... AsteroidsTest.o"
 	@echo "... AsteroidsTest.i"
 	@echo "... AsteroidsTest.s"
-	@echo "... PlayerTest.o"
-	@echo "... PlayerTest.i"
-	@echo "... PlayerTest.s"
 .PHONY : help
 
 

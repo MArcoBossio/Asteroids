@@ -3,8 +3,8 @@
 //
 
 #include "gtest/gtest.h"
-#include "../../Asteroids.h"
-#include "../../Player.h"
+#include "../src/Asteroids.h"
+#include "../src/Player.h"
 
 TEST(PlayerTest, CollisionWithAsteroid) {
 Player player;

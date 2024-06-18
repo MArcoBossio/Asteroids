@@ -19,6 +19,8 @@ public:
         }
     }
 
+    ~Player() = default;
+
     bool collided = false;
 
     void render(sf::RenderWindow &window) override;

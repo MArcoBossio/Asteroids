@@ -1,10 +1,10 @@
 #include <iostream>
 #include "SFML/Graphics.hpp"
-#include "Player.h"
-#include "Entity.h"
-#include "Bullet.h"
-#include "Asteroids.h"
-#include "Game.h"
+#include "src/Player.h"
+#include "src/Entity.h"
+#include "src/Bullet.h"
+#include "src/Asteroids.h"
+#include "src/Game.h"
 #include <cmath>
 #include <vector>
 #include <list>

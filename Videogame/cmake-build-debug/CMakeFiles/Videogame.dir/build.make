@@ -83,94 +83,94 @@ CMakeFiles/Videogame.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/main.cpp -o CMakeFiles/Videogame.dir/main.cpp.s
 
-CMakeFiles/Videogame.dir/Player.cpp.o: CMakeFiles/Videogame.dir/flags.make
-CMakeFiles/Videogame.dir/Player.cpp.o: ../Player.cpp
-CMakeFiles/Videogame.dir/Player.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Videogame.dir/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/Player.cpp.o -MF CMakeFiles/Videogame.dir/Player.cpp.o.d -o CMakeFiles/Videogame.dir/Player.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Player.cpp
+CMakeFiles/Videogame.dir/src/Player.cpp.o: CMakeFiles/Videogame.dir/flags.make
+CMakeFiles/Videogame.dir/src/Player.cpp.o: ../src/Player.cpp
+CMakeFiles/Videogame.dir/src/Player.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Videogame.dir/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/src/Player.cpp.o -MF CMakeFiles/Videogame.dir/src/Player.cpp.o.d -o CMakeFiles/Videogame.dir/src/Player.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Player.cpp
 
-CMakeFiles/Videogame.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Player.cpp > CMakeFiles/Videogame.dir/Player.cpp.i
+CMakeFiles/Videogame.dir/src/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/src/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Player.cpp > CMakeFiles/Videogame.dir/src/Player.cpp.i
 
-CMakeFiles/Videogame.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Player.cpp -o CMakeFiles/Videogame.dir/Player.cpp.s
+CMakeFiles/Videogame.dir/src/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/src/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Player.cpp -o CMakeFiles/Videogame.dir/src/Player.cpp.s
 
-CMakeFiles/Videogame.dir/Entity.cpp.o: CMakeFiles/Videogame.dir/flags.make
-CMakeFiles/Videogame.dir/Entity.cpp.o: ../Entity.cpp
-CMakeFiles/Videogame.dir/Entity.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Videogame.dir/Entity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/Entity.cpp.o -MF CMakeFiles/Videogame.dir/Entity.cpp.o.d -o CMakeFiles/Videogame.dir/Entity.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Entity.cpp
+CMakeFiles/Videogame.dir/src/Entity.cpp.o: CMakeFiles/Videogame.dir/flags.make
+CMakeFiles/Videogame.dir/src/Entity.cpp.o: ../src/Entity.cpp
+CMakeFiles/Videogame.dir/src/Entity.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Videogame.dir/src/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/src/Entity.cpp.o -MF CMakeFiles/Videogame.dir/src/Entity.cpp.o.d -o CMakeFiles/Videogame.dir/src/Entity.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Entity.cpp
 
-CMakeFiles/Videogame.dir/Entity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/Entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Entity.cpp > CMakeFiles/Videogame.dir/Entity.cpp.i
+CMakeFiles/Videogame.dir/src/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/src/Entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Entity.cpp > CMakeFiles/Videogame.dir/src/Entity.cpp.i
 
-CMakeFiles/Videogame.dir/Entity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/Entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Entity.cpp -o CMakeFiles/Videogame.dir/Entity.cpp.s
+CMakeFiles/Videogame.dir/src/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/src/Entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Entity.cpp -o CMakeFiles/Videogame.dir/src/Entity.cpp.s
 
-CMakeFiles/Videogame.dir/Bullet.cpp.o: CMakeFiles/Videogame.dir/flags.make
-CMakeFiles/Videogame.dir/Bullet.cpp.o: ../Bullet.cpp
-CMakeFiles/Videogame.dir/Bullet.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Videogame.dir/Bullet.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/Bullet.cpp.o -MF CMakeFiles/Videogame.dir/Bullet.cpp.o.d -o CMakeFiles/Videogame.dir/Bullet.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Bullet.cpp
+CMakeFiles/Videogame.dir/src/Bullet.cpp.o: CMakeFiles/Videogame.dir/flags.make
+CMakeFiles/Videogame.dir/src/Bullet.cpp.o: ../src/Bullet.cpp
+CMakeFiles/Videogame.dir/src/Bullet.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Videogame.dir/src/Bullet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/src/Bullet.cpp.o -MF CMakeFiles/Videogame.dir/src/Bullet.cpp.o.d -o CMakeFiles/Videogame.dir/src/Bullet.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Bullet.cpp
 
-CMakeFiles/Videogame.dir/Bullet.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/Bullet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Bullet.cpp > CMakeFiles/Videogame.dir/Bullet.cpp.i
+CMakeFiles/Videogame.dir/src/Bullet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/src/Bullet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Bullet.cpp > CMakeFiles/Videogame.dir/src/Bullet.cpp.i
 
-CMakeFiles/Videogame.dir/Bullet.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/Bullet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Bullet.cpp -o CMakeFiles/Videogame.dir/Bullet.cpp.s
+CMakeFiles/Videogame.dir/src/Bullet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/src/Bullet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Bullet.cpp -o CMakeFiles/Videogame.dir/src/Bullet.cpp.s
 
-CMakeFiles/Videogame.dir/Asteroids.cpp.o: CMakeFiles/Videogame.dir/flags.make
-CMakeFiles/Videogame.dir/Asteroids.cpp.o: ../Asteroids.cpp
-CMakeFiles/Videogame.dir/Asteroids.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Videogame.dir/Asteroids.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/Asteroids.cpp.o -MF CMakeFiles/Videogame.dir/Asteroids.cpp.o.d -o CMakeFiles/Videogame.dir/Asteroids.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Asteroids.cpp
+CMakeFiles/Videogame.dir/src/Asteroids.cpp.o: CMakeFiles/Videogame.dir/flags.make
+CMakeFiles/Videogame.dir/src/Asteroids.cpp.o: ../src/Asteroids.cpp
+CMakeFiles/Videogame.dir/src/Asteroids.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Videogame.dir/src/Asteroids.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/src/Asteroids.cpp.o -MF CMakeFiles/Videogame.dir/src/Asteroids.cpp.o.d -o CMakeFiles/Videogame.dir/src/Asteroids.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Asteroids.cpp
 
-CMakeFiles/Videogame.dir/Asteroids.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/Asteroids.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Asteroids.cpp > CMakeFiles/Videogame.dir/Asteroids.cpp.i
+CMakeFiles/Videogame.dir/src/Asteroids.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/src/Asteroids.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Asteroids.cpp > CMakeFiles/Videogame.dir/src/Asteroids.cpp.i
 
-CMakeFiles/Videogame.dir/Asteroids.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/Asteroids.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Asteroids.cpp -o CMakeFiles/Videogame.dir/Asteroids.cpp.s
+CMakeFiles/Videogame.dir/src/Asteroids.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/src/Asteroids.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Asteroids.cpp -o CMakeFiles/Videogame.dir/src/Asteroids.cpp.s
 
-CMakeFiles/Videogame.dir/Game.cpp.o: CMakeFiles/Videogame.dir/flags.make
-CMakeFiles/Videogame.dir/Game.cpp.o: ../Game.cpp
-CMakeFiles/Videogame.dir/Game.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Videogame.dir/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/Game.cpp.o -MF CMakeFiles/Videogame.dir/Game.cpp.o.d -o CMakeFiles/Videogame.dir/Game.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Game.cpp
+CMakeFiles/Videogame.dir/src/Game.cpp.o: CMakeFiles/Videogame.dir/flags.make
+CMakeFiles/Videogame.dir/src/Game.cpp.o: ../src/Game.cpp
+CMakeFiles/Videogame.dir/src/Game.cpp.o: CMakeFiles/Videogame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marco/Desktop/Asteroids/Videogame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Videogame.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Videogame.dir/src/Game.cpp.o -MF CMakeFiles/Videogame.dir/src/Game.cpp.o.d -o CMakeFiles/Videogame.dir/src/Game.cpp.o -c /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Game.cpp
 
-CMakeFiles/Videogame.dir/Game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Game.cpp > CMakeFiles/Videogame.dir/Game.cpp.i
+CMakeFiles/Videogame.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Videogame.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Game.cpp > CMakeFiles/Videogame.dir/src/Game.cpp.i
 
-CMakeFiles/Videogame.dir/Game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/Game.cpp -o CMakeFiles/Videogame.dir/Game.cpp.s
+CMakeFiles/Videogame.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Videogame.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marco/Desktop/Asteroids/Videogame/src/Game.cpp -o CMakeFiles/Videogame.dir/src/Game.cpp.s
 
 # Object files for target Videogame
 Videogame_OBJECTS = \
 "CMakeFiles/Videogame.dir/main.cpp.o" \
-"CMakeFiles/Videogame.dir/Player.cpp.o" \
-"CMakeFiles/Videogame.dir/Entity.cpp.o" \
-"CMakeFiles/Videogame.dir/Bullet.cpp.o" \
-"CMakeFiles/Videogame.dir/Asteroids.cpp.o" \
-"CMakeFiles/Videogame.dir/Game.cpp.o"
+"CMakeFiles/Videogame.dir/src/Player.cpp.o" \
+"CMakeFiles/Videogame.dir/src/Entity.cpp.o" \
+"CMakeFiles/Videogame.dir/src/Bullet.cpp.o" \
+"CMakeFiles/Videogame.dir/src/Asteroids.cpp.o" \
+"CMakeFiles/Videogame.dir/src/Game.cpp.o"
 
 # External object files for target Videogame
 Videogame_EXTERNAL_OBJECTS =
 
 Videogame: CMakeFiles/Videogame.dir/main.cpp.o
-Videogame: CMakeFiles/Videogame.dir/Player.cpp.o
-Videogame: CMakeFiles/Videogame.dir/Entity.cpp.o
-Videogame: CMakeFiles/Videogame.dir/Bullet.cpp.o
-Videogame: CMakeFiles/Videogame.dir/Asteroids.cpp.o
-Videogame: CMakeFiles/Videogame.dir/Game.cpp.o
+Videogame: CMakeFiles/Videogame.dir/src/Player.cpp.o
+Videogame: CMakeFiles/Videogame.dir/src/Entity.cpp.o
+Videogame: CMakeFiles/Videogame.dir/src/Bullet.cpp.o
+Videogame: CMakeFiles/Videogame.dir/src/Asteroids.cpp.o
+Videogame: CMakeFiles/Videogame.dir/src/Game.cpp.o
 Videogame: CMakeFiles/Videogame.dir/build.make
 Videogame: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 Videogame: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
