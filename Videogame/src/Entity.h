@@ -13,6 +13,8 @@ public:
     virtual void render(sf::RenderWindow &window) = 0;
     sf::Vector2f position;
     float angle;
+
+    ~Entity() = default;
 };
 
 

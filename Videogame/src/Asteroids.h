@@ -36,6 +36,8 @@ public:
         }
     }
 
+    ~Asteroids() = default;
+
     void render(sf::RenderWindow &window) override;
 
     const sf::VertexArray &getVertexArray() const;
@@ -47,6 +49,10 @@ public:
     static sf::Vector2f randomPosition();
 
     sf::CircleShape getBoundingCircle() const;
+
+    sf::Vector2f getPosition() const {
+        return position;
+    }
 
 private:
     sf::VertexArray array;
