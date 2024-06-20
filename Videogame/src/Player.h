@@ -19,7 +19,7 @@ public:
         }
     }
 
-    ~Player() = default;
+    ~Player() override = default;
 
     bool collided = false;
 

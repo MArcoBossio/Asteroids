@@ -36,7 +36,7 @@ public:
         }
     }
 
-    ~Asteroids() = default;
+    ~Asteroids() override = default;
 
     void render(sf::RenderWindow &window) override;
 

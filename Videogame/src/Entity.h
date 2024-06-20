@@ -14,7 +14,7 @@ public:
     sf::Vector2f position;
     float angle;
 
-    ~Entity() = default;
+    virtual ~Entity() = default;
 };
 
 

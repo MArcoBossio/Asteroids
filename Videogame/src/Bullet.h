@@ -18,7 +18,7 @@ public:
         this->position = position + direction * offset;
     }
 
-    ~Bullet() = default;
+    ~Bullet() override = default;
 
     void update(float deltaTime, std::vector<Entity*> &entities) override;
     void render(sf::RenderWindow &window) override;
